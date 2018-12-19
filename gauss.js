@@ -56,6 +56,12 @@ class Gauss{
 
     }
 
+    getSize(){
+
+        return this.size;
+
+    }
+
     getDataSet(){
 
         return this.dataSet;
