@@ -2,40 +2,29 @@ class Gauss{
 
     init(dataSet){
 
-        this.data=dataSet;
+        this.dataSet=dataSet;
 
     }
 
     push(element){
 
-        this.data.push(element);
+        this.dataSet.push(element);
 
-    }
-
-    receiveChart(){
-
-
-    }
-
-    killChart(){
-
-        
     }
 
     update(){
 
         this.sum=0;
-
-        this.data.forEach(element => {
+        this.dataSet.forEach(element => {
             
             this.sum+=element;
 
         });
 
-        this.size=this.data.length;
+        this.size=this.dataSet.length;
         this.average=this.sum/this.size;
         let devSum=0;
-        this.data.forEach(element => {
+        this.dataSet.forEach(element => {
 
             let dev = Math.pow((element-this.size),2);
 
@@ -64,6 +53,12 @@ class Gauss{
     getAverage(){
 
         return this.average;
+
+    }
+
+    getDataSet(){
+
+        return this.dataSet;
 
     }
 
