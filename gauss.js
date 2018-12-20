@@ -70,7 +70,7 @@ class Gauss{
 
     getVariationCoeficient(){
 
-        return this.dataSet;
+        return this.variationCoeficient;
 
     }
 
