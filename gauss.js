@@ -68,4 +68,10 @@ class Gauss{
 
     }
 
+    getVariationCoeficient(){
+
+        return this.dataSet;
+
+    }
+
 }

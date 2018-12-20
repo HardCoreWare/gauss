@@ -6,4 +6,4 @@ let size=gauss.getSize();
 let average=gauss.getAverage();
 
 console.log('Size : ' + String(size));
-console.log('Average : ' + String(size));
+console.log('Average : ' + String(average));
